@@ -11,7 +11,8 @@ public enum CombineObjectType{
     ChickenWhite,
 
     Coq,
-    Milk, // always add new items at the end
+    
+    Milk,
 
     Mascarpone,
 
@@ -23,5 +24,10 @@ public enum CombineObjectType{
 
     Boudoir,
 
-    Cacao
+    Cacao,
+    Eggs,
+
+    JauneSucre,
+
+    MascarponeSucre,
 }

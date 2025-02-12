@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class CheckTrigger : MonoBehaviour
 {
-    public GameObject prefab;
     public CombineLogic combineLogic;
 
     bool alreadyDone;
@@ -22,13 +21,33 @@ public class CheckTrigger : MonoBehaviour
         if(other.attachedRigidbody != null &&
             other.attachedRigidbody.GetComponent<CheckTrigger>())
             {
-                Debug.Log(other);
-                Instantiate(prefab,transform.position,transform.rotation);
+                GameObject otherObj = other.attachedRigidbody.gameObject;
+                GameObject thisObj = gameObject;
+
+                CombineObjectType otherType = otherObj.GetComponent<ObjectType>().type;
+                CombineObjectType thisType = thisObj.GetComponent<ObjectType>().type;
+
+                Debug.Log("Collision between " + thisType + " and " + otherType);
+
+                GameObject prefab = null;
+                for(int i = 0; i < combineLogic.combineDataList.Count;i++)
+                {
+                    CombineLogic.CombineData data = combineLogic.combineDataList[i];
+                    if((data.objectType1 == thisType && data.objectType2 == otherType) ||
+                        (data.objectType1 == otherType && data.objectType2 == thisType))
+                    {
+                        prefab = data.resultPrefab;
+                    }
+                }
+
+                if(prefab)
+                    Instantiate(prefab,transform.position,transform.rotation);
 
                 Destroy(gameObject);
                 Destroy(other.attachedRigidbody.gameObject);
 
                 other.attachedRigidbody.GetComponent<CheckTrigger>().alreadyDone = true;
+                alreadyDone = true;
             }
     }
 }

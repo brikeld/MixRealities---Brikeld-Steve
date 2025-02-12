@@ -22,4 +22,6 @@ public enum CombineObjectType{
     Coffee,
 
     Boudoir,
+
+    Cacao
 }

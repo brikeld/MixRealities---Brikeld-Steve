@@ -31,3 +31,21 @@ MonoBehaviour:
   - objectType1: 15
     objectType2: 13
     resultPrefab: {fileID: 4129431883939062113, guid: 13480d738e974e54a9f2000689cb279b, type: 3}
+  - objectType1: 1
+    objectType2: 7
+    resultPrefab: {fileID: 7259715125451111887, guid: 1a35baf2310da82458f7f6d02fd1d9e6, type: 3}
+  - objectType1: 1
+    objectType2: 5
+    resultPrefab: {fileID: 1977323359591733181, guid: 229a09b706f92694dba9e33e3a07059f, type: 3}
+  - objectType1: 1
+    objectType2: 8
+    resultPrefab: {fileID: 4582970849005008273, guid: 152de4a79fde95f49b881d7ded0d01c0, type: 3}
+  - objectType1: 1
+    objectType2: 9
+    resultPrefab: {fileID: 7531494252358370602, guid: 3def501d5c191ad4cb32d55125592758, type: 3}
+  - objectType1: 5
+    objectType2: 9
+    resultPrefab: {fileID: 3732216637859180213, guid: 0527abed02f9520438cf656a6a6b3070, type: 3}
+  - objectType1: 8
+    objectType2: 9
+    resultPrefab: {fileID: 3679704851053096618, guid: 6fa850e1f53cf2f4989bdc834b1df5da, type: 3}

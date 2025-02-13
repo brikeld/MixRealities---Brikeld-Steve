@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combineLogic: {fileID: 11400000, guid: ddf8d9412aee76b48ad27a8646f0e155, type: 2}
+  combineAudioSource: {fileID: 0}
+  combineSound: {fileID: 0}
 --- !u!114 &6439570968539852949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fb485b8f93b6be4dbb95ca40bf42154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 18
 --- !u!65 &-6642749418836431811
 BoxCollider:
   m_ObjectHideFlags: 0

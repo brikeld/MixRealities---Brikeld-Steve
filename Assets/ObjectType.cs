@@ -30,4 +30,10 @@ public enum CombineObjectType{
     JauneSucre,
 
     MascarponeSucre,
+
+    Biscuitcoffee,
+
+    Tiramisu,
+
+    CremeCacao
 }

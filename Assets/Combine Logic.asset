@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: Combine Logic
   m_EditorClassIdentifier: 
   combineDataList:
-  - objectType1: 1
-    objectType2: 2
-    resultPrefab: {fileID: 897720221269299902, guid: db5c8cfb799412a489bc26bcd55953dd, type: 3}
-  - objectType1: 9
+  - objectType1: 2
     objectType2: 1
-    resultPrefab: {fileID: 7531494252358370602, guid: 3def501d5c191ad4cb32d55125592758, type: 3}
+    resultPrefab: {fileID: 7811042744240499669, guid: 26dc44f521014084b8beafa0ae4a9448, type: 3}
   - objectType1: 10
     objectType2: 5
+    resultPrefab: {fileID: 2482144232028012194, guid: 2e54ec357592f7649ac89b72aa9b2d07, type: 3}
+  - objectType1: 11
+    objectType2: 4
     resultPrefab: {fileID: 5866486980257045842, guid: 924de30f3c5a52a4aab2916350ddf871, type: 3}
-  - objectType1: 4
-    objectType2: 5
-    resultPrefab: {fileID: 5866486980257045842, guid: 924de30f3c5a52a4aab2916350ddf871, type: 3}
+  - objectType1: 8
+    objectType2: 7
+    resultPrefab: {fileID: 8316347404883285438, guid: c387870cf8750be43938c3118f76b917, type: 3}
+  - objectType1: 12
+    objectType2: 9
+    resultPrefab: {fileID: 2091145022232823332, guid: c9fa9319506bebb469d36f880baf5229, type: 3}
+  - objectType1: 15
+    objectType2: 13
+    resultPrefab: {fileID: 4129431883939062113, guid: 13480d738e974e54a9f2000689cb279b, type: 3}

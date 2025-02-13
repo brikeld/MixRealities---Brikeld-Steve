@@ -294,6 +294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combineLogic: {fileID: 11400000, guid: ddf8d9412aee76b48ad27a8646f0e155, type: 2}
+  combineAudioSource: {fileID: 0}
+  combineSound: {fileID: 0}
+  correctCombineSound: {fileID: 8300000, guid: 22e6fceb0c33a184eb9d3b8c9170d458, type: 3}
 --- !u!114 &-2938233902720678416
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,12 +7,16 @@ public class CheckTrigger : MonoBehaviour
     // Public fields for combination sound; assign via Inspector
     public AudioSource combineAudioSource;
     public AudioClip combineSound;
-    public AudioClip correctCombineSound; // New variable for correct combination sound
 
     bool alreadyDone;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (combineAudioSource != null)
+        {
+            combineAudioSource.PlayOneShot(combineSound);
+        }
+
         // CombineSound must be assigned via the Inspector.
     }
 
@@ -47,22 +51,15 @@ public class CheckTrigger : MonoBehaviour
 
             if (prefab)
             {
-                // Play correct combination sound if available
-                if (combineAudioSource)
+                // Play combination sound if available
+                if (combineAudioSource && combineSound)
                 {
-                    if (correctCombineSound)
-                        combineAudioSource.PlayOneShot(correctCombineSound);
-                    else if (combineSound)
-                        combineAudioSource.PlayOneShot(combineSound);
+                    combineAudioSource.PlayOneShot(combineSound);
                 }
                 Instantiate(prefab, transform.position, transform.rotation);
             }
-            else
-            {
-                // Only trigger vibration on a wrong combination (when prefab is null)
-                OVRInput.SetControllerVibration(.25f, .25f, OVRInput.Controller.RTouch);
-            }
 
+            OVRInput.SetControllerVibration(.25f, .25f, OVRInput.Controller.RTouch);
             Destroy(gameObject);
             Destroy(other.attachedRigidbody.gameObject);
 

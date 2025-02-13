@@ -46,3 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 2139038866963390210, guid: 3b7a1949df8662f4ba067eb8aed460b4, type: 3}
   offsetPosition: {x: 0, y: 0.3, z: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  boxSize: {x: 0.4, y: 0.4, z: 0.4}
+  boxCenter: {x: 0, y: 0.2, z: 0}
+  spawnDelay: 0.5

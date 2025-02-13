@@ -6,12 +6,13 @@ public class ObjectType : MonoBehaviour
     public CombineObjectType type;
 }
 
-public enum CombineObjectType{
+public enum CombineObjectType
+{
     None,
     ChickenWhite,
 
     Coq,
-    
+
     Milk,
 
     Mascarpone,
@@ -35,5 +36,7 @@ public enum CombineObjectType{
 
     Tiramisu,
 
-    CremeCacao
+    CremeCacao,
+
+    Instruction,
 }

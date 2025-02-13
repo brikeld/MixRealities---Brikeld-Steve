@@ -34,13 +34,25 @@ MonoBehaviour:
   - objectType1: 1
     objectType2: 7
     resultPrefab: {fileID: 7259715125451111887, guid: 1a35baf2310da82458f7f6d02fd1d9e6, type: 3}
+  - objectType1: 2
+    objectType2: 7
+    resultPrefab: {fileID: 7259715125451111887, guid: 1a35baf2310da82458f7f6d02fd1d9e6, type: 3}
   - objectType1: 1
+    objectType2: 5
+    resultPrefab: {fileID: 1977323359591733181, guid: 229a09b706f92694dba9e33e3a07059f, type: 3}
+  - objectType1: 2
     objectType2: 5
     resultPrefab: {fileID: 1977323359591733181, guid: 229a09b706f92694dba9e33e3a07059f, type: 3}
   - objectType1: 1
     objectType2: 8
     resultPrefab: {fileID: 4582970849005008273, guid: 152de4a79fde95f49b881d7ded0d01c0, type: 3}
+  - objectType1: 2
+    objectType2: 8
+    resultPrefab: {fileID: 4582970849005008273, guid: 152de4a79fde95f49b881d7ded0d01c0, type: 3}
   - objectType1: 1
+    objectType2: 9
+    resultPrefab: {fileID: 7531494252358370602, guid: 3def501d5c191ad4cb32d55125592758, type: 3}
+  - objectType1: 2
     objectType2: 9
     resultPrefab: {fileID: 7531494252358370602, guid: 3def501d5c191ad4cb32d55125592758, type: 3}
   - objectType1: 5
@@ -49,3 +61,12 @@ MonoBehaviour:
   - objectType1: 8
     objectType2: 9
     resultPrefab: {fileID: 3679704851053096618, guid: 6fa850e1f53cf2f4989bdc834b1df5da, type: 3}
+  - objectType1: 1
+    objectType2: 4
+    resultPrefab: {fileID: 2197537574483111319, guid: 352d3f2ab49ecbc44950faf3eaee9ea0, type: 3}
+  - objectType1: 2
+    objectType2: 4
+    resultPrefab: {fileID: 2197537574483111319, guid: 352d3f2ab49ecbc44950faf3eaee9ea0, type: 3}
+  - objectType1: 7
+    objectType2: 9
+    resultPrefab: {fileID: 1092999927994119408, guid: e6a71ba6d297fe940a4745adfc1b6cdd, type: 3}

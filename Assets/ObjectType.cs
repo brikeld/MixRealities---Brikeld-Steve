@@ -49,4 +49,11 @@ public enum CombineObjectType
     ChickenCacao,
 
     SugarCacao,
+
+    ChickenMascarpone,
+
+    SugarCoffee,
+
+    CaffeeMocca,
+
 }

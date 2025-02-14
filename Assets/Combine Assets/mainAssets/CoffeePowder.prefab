@@ -151,15 +151,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3910990755373119420, guid: 7dd1495b8747e41f18a7788520c770e0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 7dd1495b8747e41f18a7788520c770e0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 7dd1495b8747e41f18a7788520c770e0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 7dd1495b8747e41f18a7788520c770e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -296,7 +296,6 @@ MonoBehaviour:
   combineLogic: {fileID: 11400000, guid: ddf8d9412aee76b48ad27a8646f0e155, type: 2}
   combineAudioSource: {fileID: 0}
   combineSound: {fileID: 8300000, guid: 22e6fceb0c33a184eb9d3b8c9170d458, type: 3}
-  correctCombineSound: {fileID: 8300000, guid: 22e6fceb0c33a184eb9d3b8c9170d458, type: 3}
 --- !u!114 &4215223883798300270
 MonoBehaviour:
   m_ObjectHideFlags: 0

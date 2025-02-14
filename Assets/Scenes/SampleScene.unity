@@ -31613,7 +31613,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: a4679866ebb0481438b394cc9d8bb6ab, type: 3}
   m_Resource: {fileID: 8300000, guid: a4679866ebb0481438b394cc9d8bb6ab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -31657,7 +31657,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -40996,7 +40996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1953280144
 MeshCollider:
   m_ObjectHideFlags: 0
